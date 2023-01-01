@@ -1,0 +1,2 @@
+# CSGOTextMod_Simplified-Chinese
+CSGOTextMod简体中文翻译
