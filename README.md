@@ -4,6 +4,8 @@ CSGOTextMod简体中文翻译
 官方版本：4.2C
 简体中文版本：4.2C
 
+本项目处于翻译中
+
 ## 安装方式
 
 1. 将 "csgo_colormod "移动到CSGO目录下的 \csgo\resource 
