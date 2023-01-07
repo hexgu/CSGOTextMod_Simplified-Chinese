@@ -3,7 +3,7 @@
 3. Restart CS:GO & enjoy
 
 1. 将 "csgo_colormod "移动到CSGO目录下的 \csgo\resource 
-2. 在 CS:GO 启动选项中添加 -colormod
+2. 在 CS:GO 启动选项中添加 -language colormod
 3. 重新启动CS:GO
 
 Not working?
