@@ -1,15 +1,10 @@
-1. Move "csgo_colormod" to this folder: Steam\SteamApps\Common\Counter-Strike Global Offensive\csgo\resource
-2. Add -language colormod in CS:GO launch options
-3. Restart CS:GO & enjoy
+安装方式
+1. 将下载 "csgo_schinese.txt" 移动 CSGO 目录下的 \csgo\resource，并且替换 csgo_schinese.txt 
 
-1. 将 "csgo_colormod "移动到CSGO目录下的 \csgo\resource 
-2. 在 CS:GO 启动选项中添加 -language colormod
+2. 确保游戏语言为简体中文，或者在 CS:GO 启动选项中添加 -language schinese
+
 3. 重新启动CS:GO
 
-Not working?
-1. Make sure that csgo_colormod is placed in the right folder (it needs to be inside the "resource" folder)
-2. Check your launch options for spelling mistakes, this example will work: -novid -language colormod -tickrate 128
-
-无法正常使用？
-1. 确保 csgo_colormod 被放在正确的文件夹中（它需要在 "resource "文件夹中）。
-2. 检查你的启动选项是否有拼写错误，例如： -novid -language colormod -tickrate 128
+ 无法正常使用？
+1. 确保 csgo_colormod.txt 被放在正确的文件夹中（它要放在 "resource"文件夹中）。
+2. 检查你的启动选项是否有拼写错误，例如： -noforcemaccel -noforcemspd -noforcemparms -freq 144 -console -novid -tickrate 128 +exec auto -language schinese

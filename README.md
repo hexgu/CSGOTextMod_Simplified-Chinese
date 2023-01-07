@@ -15,7 +15,7 @@ CSGOTextMod 简体中文翻译
 3. 重新启动CS:GO
 
 ## 无法正常使用？
-1. 确保 csgo_colormod 被放在正确的文件夹中（它放在 "resource"文件夹中）。
+1. 确保 csgo_colormod.txt 被放在正确的文件夹中（它要放在 "resource"文件夹中）。
 2. 检查你的启动选项是否有拼写错误，例如： -noforcemaccel -noforcemspd -noforcemparms -freq 144 -console -novid -tickrate 128 +exec auto -language schinese
 
 ## 会被封号嘛？
