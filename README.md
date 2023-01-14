@@ -4,7 +4,7 @@ CSGOTextMod 简体中文翻译
 官方版本：4.2C
 简体中文版本：4.2C
 
-[项目官网](https://csgo.gkd.plus)
+[项目官网](https://csgo.gkd.plus) [点击下载](https://ghproxy.com/https://github.com/hexgu/CSGOTextMod_Simplified-Chinese/raw/main/CSGOTextMod.zip)
 
 ## 安装方式
 
