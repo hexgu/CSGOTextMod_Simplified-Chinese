@@ -28,6 +28,8 @@ CSGOTextMod 简体中文翻译
 如果您觉得本项目不错的话，欢迎通过下方二维码支持我们
 ![微信赞赏码](/pic/pay.jpg "支持我们")
 
+
 ## 开源声明
 本项目已经联系原作者 Maxim S.D 获得授权，如果您需要二次更改请遵循 [MPL-2.0 license](https://github.com/hexgu/CSGOTextMod_Simplified-Chinese/blob/main/LICENSE)
 ![邮件](/pic/mail.png "授权声明")
+
