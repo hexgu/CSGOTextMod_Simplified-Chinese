@@ -1,0 +1,291 @@
+// Text Color Mod
+// Original idea by Orel & spddl
+// Rewritten and edited by Maxim (MrMaxim / BananaGaming) since Version 1.0
+
+"lang"
+{
+"Language" "English"
+"Tokens"
+{ 
+// -------------------------------------------------------------------------------------------
+
+		
+	// SKILL GROUPS
+	
+		"skillgroup_1"						"(1/18) 白银 ー I"
+		"skillgroup_2"						"(2/18) 白银 ー II"
+		"skillgroup_3"						"(3/18) 白银 ー III"
+		"skillgroup_4"						"(4/18) 白银 ー IV"
+		"skillgroup_5"						"(5/18) 白银 ー 精英"
+		"skillgroup_6"						"(6/18) 白银 ー 大师级精英"
+		"skillgroup_7"						"(7/18) 黄金新星 ー I"
+		"skillgroup_8"						"(8/18) 黄金新星 ー II"
+		"skillgroup_9"						"(9/18) 黄金新星 ー III"
+		"skillgroup_10"						"(10/18) 黄金新星 ー 大师级"
+		"skillgroup_11"						"(11/18) 大师级守护者 ー I"
+		"skillgroup_12"						"(12/18) 大师级守护者 ー II"
+		"skillgroup_13"						"(13/18) 大师级守护者 ー 精英"
+		"skillgroup_14"						"(14/18) 大师级守护者 ー 卓越"
+		"skillgroup_15"						"(15/18) 传奇之鹰"
+		"skillgroup_16"						"(16/18) 传奇之鹰 ー 大师级"
+		"skillgroup_17"						"(17/18) 无上之首席大师"
+		"skillgroup_18"						"(18/18) 全球精英"
+
+			// skillgroups
+		"RankName_0"						"(0/18) 未评级"
+		"RankName_1"						"(1/18) 白银 ー I"
+		"RankName_2"						"(2/18) 白银 ー II"
+		"RankName_3"						"(3/18) 白银 ー III"
+		"RankName_4"						"(4/18) 白银 ー IV"
+		"RankName_5"						"(5/18) 白银 ー 精英"
+		"RankName_6"						"(6/18) 白银 ー 大师级精英"
+		"RankName_7"						"(7/18) 黄金新星 ー I"
+		"RankName_8"						"(8/18) 黄金新星 ー II"
+		"RankName_9"						"(9/18) 黄金新星 ー III"
+		"RankName_10"						"(0/18) 黄金新星 ー 大师级"
+		"RankName_11"						"(11/18) 大师级守护者 ー I"
+		"RankName_12"						"(12/18) 大师级守护者 ー II"
+		"RankName_13"						"(13/18) 大师级守护者 ー 精英"
+		"RankName_14"						"(14/18) 大师级守护者 ー 卓越"
+		"RankName_15"						"(15/18) 传奇之鹰"
+		"RankName_16"						"(16/18) 传奇之鹰 ー 大师级"
+		"RankName_17"						"(17/18) 无上之首席大师"
+		"RankName_18"						"(18/18) 全球精英"
+	
+	// PLAY OPTIONS (MENUS)
+	
+		
+	// INVENTORY TEAM INFO
+	
+		"CSGO_Inventory_Team_Any"						"任意"
+		"CSGO_Inventory_Team_CT"						"CT阵营"
+		"CSGO_Inventory_Team_T"							"T阵营"
+
+	// INVENTORY EXTERIOR
+		
+		"SFUI_InvTooltip_Wear_Amount_0"						"崭新出厂 (5)"
+		"SFUI_InvTooltip_Wear_Amount_1"						"略有磨损 (4)"
+		"SFUI_InvTooltip_Wear_Amount_2"						"久经沙场 (3)"
+		"SFUI_InvTooltip_Wear_Amount_3"						"破损不堪  (2)"
+		"SFUI_InvTooltip_Wear_Amount_4"						"战痕累累 (1)"
+		
+	// NOW PLAYING INFORMATION (IN-GAME)
+	
+		"SFUI_NowPlaying_T"			"新回合"
+		"SFUI_NowPlaying_CT"		"新回合"
+	
+	// WARNING & INFO MESSAGES (IN-GAME)
+		
+		"Cstrike_TitlesTXT_Bomb_Defused"									"炸弹已经拆除。"
+		"Cstrike_TitlesTXT_Bomb_Planted"									"炸弹已被安放 (还剩%s1 秒)。"
+		
+	// LOADING SCREEN
+		
+		"LoadingProgress_SpawningServer"	"(0%) 正在启动本地游戏服务器..."
+		"LoadingProgress_ProcessServerInfo"	"(10%)正在检索服务器信息..."
+		"LoadingProgress_LoadMap"		"(10%) 正在载入游戏世界..."
+		"LoadingProgress_PrecacheWorld"		"(20%) 正在初始化游戏世界..."
+		"LoadingProgress_LoadResources"		"(50%) 正在载入资源..."
+		"LoadingProgress_Connecting"		"(75%) 正在连接至服务器..."
+		"LoadingProgress_SendClientInfo"	"(75%) 正在发送客户端信息..."
+		"LoadingProgress_SignonLocal"		"(75%) 正在初始化资源..."
+		"LoadingProgress_SignonData"		"(90%) 正在检索游戏数据..."
+		"LoadingProgress_SignonDataLocal"	"(90%) 正在初始化游戏资料..."
+		
+	// DAMAGE INFO (IN-GAME)
+		
+		"Panorama_FreezePanel_DamageTaken"		"<font color='#A0A0A0'>受到 </font><font color='#ff0000'><b>{d:damage_taken} </b></font> <font color='#A0A0A0'></font> <font color='#ff0000'><b>命中 {d:hits_taken} 次，</b></font> <font color='#A0A0A0'>来自 {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageGiven"		"<font color='#A0A0A0'>造成 </font><font color='#00ff00'><b>{d:damage_given} </b></font> <font color='#A0A0A0'></font> <font color='#00ff00'><b>命中 {d:hits_given} 次，</b></font> <font color='#A0A0A0'>受伤者为 {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageTaken_Multi"		"<font color='#A0A0A0'>受到 </font><font color='#ff0000'><b>{d:damage_taken} </b></font> <font color='#A0A0A0'></font> <font color='#ff0000'><b>命中 {d:hits_taken} 次，</b></font> <font color='#A0A0A0'>来自 {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageGiven_Multi"		"<font color='#A0A0A0'>造成 </font><font color='#00ff00'><b>{d:damage_given} </b></font> <font color='#A0A0A0'></font> <font color='#00ff00'><b>命中 {d:hits_given} 次，</b></font> <font color='#A0A0A0'>受伤者为 {s:killer_name}</font>"
+		"Panorama_Freeze_Snapshot"						""
+		
+	// TARGET PLAYER (IN-GAME) 
+	
+		"Panorama_HUD_playerid_sameteam"			"<font color='#00ff00'>{s:player_name} - {d:player_health}%</font>"
+		"Panorama_HUD_playerid_diffteam"		"<font color='#ff0000'>{s:player_name}</font>"
+		
+	// JOIN MESSAGE (CHAT)
+		
+		"Cstrike_game_join_spectators"	"%s1 > 观察者\n"
+		"Cstrike_game_join_terrorist"			"%s1 > 	匪\n"
+		"Cstrike_game_join_ct"					"%s1 > 警\n"
+		
+	// TEAM ATTACK MESSAGE (CHAT)
+		
+		"Cstrike_TitlesTXT_Game_teammate_attack"							" %s1  攻击了一名队友。"
+		
+	// PLANTING/DEFUSING MESSAGES (CHAT)
+		
+		"Cstrike_TitlesTXT_Defusing_Bomb"							"* 正在拆除*"
+		"Cstrike_TitlesTXT_Planting_Bomb"							"* 安放炸弹 *"
+
+		
+	// YES/NO RADIO RESPONSE (CHAT)
+	
+		
+	// AWARD MESSAGES (CHAT)
+		
+		"Player_Cash_Award_ExplainSuicide_YouGotCash"			"（ 您因为 %s1 自杀获得 +$%s2）"
+		"Player_Cash_Award_ExplainSuicide_TeammateGotCash"		"队友 %s3 因为 %s1 自杀获得 +$%s2"
+		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"			"一名敌方玩家因为 %s1 的自杀获得了补偿。"
+		"Player_Cash_Award_ExplainSuicide_Spectators"			"%s3 因为 %s1 的自杀获得了 +$%s2"
+
+	// CASH AWARD MESSAGES (CHAT)
+		
+		"Player_Cash_Award_Kill_Teammate"		" -$%s1 • 击杀队友"
+		"Player_Cash_Award_Killed_Enemy_Generic" " +$%s1 • 击杀"
+		"Player_Cash_Award_Killed_Enemy"		" +$%s1 • %s2"
+		"Player_Cash_Award_Bomb_Planted"		" +$%s1 • 安放 C4"
+		"Player_Cash_Award_Bomb_Defused"		" +$%s1 • 拆除 C4 "
+		"Player_Cash_Award_Rescued_Hostage"		" +$%s1 • 营救人质"
+		"Player_Cash_Award_Interact_Hostage"	" +$%s1 • 找到人质"
+		"Player_Cash_Award_Respawn"				" +$%s1 • 重生奖励。"
+		"Player_Cash_Award_Get_Killed"			" -$%s1 • 被消灭"
+		"Player_Cash_Award_Damage_Hostage"		" -$%s1 • 误伤人质"
+		"Player_Cash_Award_Kill_Hostage"		" -$%s1 • 误杀人质"
+		"Team_Cash_Award_T_Win_Bomb"						" +$%s1 • C4 爆炸"
+		"Team_Cash_Award_Elim_Hostage"						" +$%s1 • 团灭敌方"
+		"Team_Cash_Award_Elim_Bomb"							" +$%s1 • 团灭敌方"
+		"Team_Cash_Award_Win_Time"							" +$%s1 • 时间耗尽"
+		"Team_Cash_Award_Win_Defuse_Bomb"					" +$%s1 • C4 拆除"
+		"Team_Cash_Award_Win_Hostages_Rescue"				" +$%s1 • 营救人质"
+		"Team_Cash_Award_Loser_Bonus"						" +$%s1 • 输掉回合"
+		"Team_Cash_Award_Loser_Zero"						"+$%s1 • 输掉回合后死亡玩家"
+		"Team_Cash_Award_Rescued_Hostage"					" +$%s1：营救人质"
+		"Team_Cash_Award_Hostage_Interaction"				" +$%s1 • 营救人质"
+		"Team_Cash_Award_Hostage_Alive"						" +$%s1 • 人质存活"
+		"Team_Cash_Award_Planted_Bomb_But_Defused"			"+$%s1 • 安放炸弹"
+		"Team_Cash_Award_no_income"							" +$0 • 由于时间耗尽"
+		"Team_Cash_Award_no_income_suicide"					" +$0 • 自杀"
+		
+	// GRENADE MESSAGES (CHAT)
+		
+		"SFUI_TitlesTXT_Fire_in_the_hole"			"手雷"
+		"SFUI_TitlesTXT_Molotov_in_the_hole"		"燃烧瓶"
+		"SFUI_TitlesTXT_Incendiary_in_the_hole"		"燃烧弹"
+		"SFUI_TitlesTXT_Flashbang_in_the_hole"		"闪光"
+		"SFUI_TitlesTXT_Smoke_in_the_hole"			"烟雾弹"
+		"SFUI_TitlesTXT_Decoy_in_the_hole"			"诱饵弹"
+		
+		
+	// ============= VERSION 4.1 ==================================================================
+	
+		// DANGER ZONE SKILL GROUPS
+	
+		"skillgroup_1dangerzone"			"(1/15) 小白鼠 - Ⅰ"
+		"skillgroup_2dangerzone"			"(2/15) 小白鼠 - Ⅱ"
+		"skillgroup_3dangerzone"			"(3/15) 野兔 - Ⅰ"
+		"skillgroup_4dangerzone"			"(4/15) 野兔 - Ⅱ"
+		"skillgroup_5dangerzone"			"(5/15) 猎犬 - Ⅰ"
+		"skillgroup_6dangerzone"			"(6/15) 猎犬 - Ⅱ"
+		"skillgroup_7dangerzone"			"(7/15) 猎犬 - 精英"
+		"skillgroup_8dangerzone"			"(8/15) 猎狐 - Ⅰ"
+		"skillgroup_9dangerzone"			"(9/15) 猎狐 - Ⅱ"
+		"skillgroup_10dangerzone"			"(10/15) 猎狐 - Ⅲ"
+		"skillgroup_11dangerzone"			"(11/15) 猎狐 - 精英"
+		"skillgroup_12dangerzone"			"(12/15)森林狼"
+		"skillgroup_13dangerzone"			"(13/15)灰烬戾狼"
+		"skillgroup_14dangerzone"			"(14/15)烈焰之狼"
+		"skillgroup_15dangerzone"			"(15/15)咆哮阿尔法"
+		
+
+		
+		// DANGER ZONE SURVIVAL RESPAWN
+		
+		"Survival_Respawn_Cooldown_Too_Long"		"不再允许重新部署！"
+		
+		// TRUST FACTOR WARNING
+		
+		"SFUI_QMM_ERROR_X_AccountWarningTrustMinor"	"注意:%s1 的信任评价低于您。"
+		"SFUI_QMM_ERROR_X_AccountWarningTrustMajor"	"警告: %s1 的信任评价远低于您。"
+		
+		// HINT TIPS
+		
+		"SFUI_Hint_Accurate_Range"		"避免在法玛斯上使用连发模式，因为它在战斗中可能会比实际更不可靠。"
+		"SFUI_Hint_Flashbang_Careful"	"为你的队友练习投掷完美时机的瞬爆闪，这样敌人将没有时间做出反应！"
+		"SFUI_Hint_BuyArmor"			"头盔并不是非买不可的，如果您对抗的是AK-47这类枪，您能拿这笔钱来购买更好的武器！"
+		"SFUI_Hint_BuyArmor2"			"头盔并不是非买不可的，如果您对抗的是AK-47这类枪，您能拿这笔钱来购买更好的武器！"
+		"SFUI_Hint_Defusal_Speed"		"确保手枪局有人买拆弹器!"
+		"SFUI_Hint_Defuse_Wins"         "当您在拆除炸弹的时候，您可以蹲下瞄地，或者转起来避免被击杀。"
+		"SFUI_Hint_Backstab"			"匕首击杀一名敌人，您将获得 $1500，但是这并不简单，所以确保只在真正需要的时候掏刀"
+		"SFUI_Hint_Flashbang_Turn"		"你可以丢出道具的一瞬间马上切回武器，您周围的敌人会听到您把道具丢出去的声音。"
+		"SFUI_Hint_Jump_Accuracy"		"跳跃会减缓您的行动并降低您的精准度，但更重要的是它会造成声响并暴露您的位置。"
+		"SFUI_Hint_Stand_While_Sniping" "只有极少数情况才会需要使用狙击步枪的两倍镜。"
+		"SFUI_Hint_KillingHostage"      "尽量避免单打独斗. 团队合作能够增加胜率"
+		"SFUI_Hint_Stick_With_Team"		"在比赛始终保持主动，做好准备，跟上队友，及时补枪。"
+		"SFUI_Hint_Ammo_Mangement"		"在手枪局你可以选择使用P2000来代替USP 消音版，从而避免子弹用光的尴尬。"
+		"SFUI_Hint_Vulnerable_Reloading" "请记住，你可以假借重新装弹来诱导敌人，但要确保你有足够的备用子弹来杀敌。"
+		"SFUI_Hint_BeQuicker"			"当新的回合开始时，最重要的是尽快控制地图。在所有地图上学习一些投掷物，让控图更容易简单。"
+		"SFUI_Hint_AvoidWater"			"地图中的水（比如死亡游乐园）会造成很多声响暴露自己位置，所以要尽可能避免进入水中。"
+		"SFUI_Hint_PickupGuns"			"询问队友是否需要掉在地上的敌方专属武器"
+		"SFUI_Hint_Quote_Claudius1"		"“我们不是朋友, 我们是兄弟。”~PashaBiceps"
+
+		"SFUI_Hint_Quote_Antoine1"		"不要先入为主地认为别人是挂，你越这么想你的操作越变形 你的斗志越萎靡"
+		"SFUI_Hint_Quote_Churchill1"	""
+
+		"SFUI_Hint_Smoke_At_Door"		"烟雾弹散开时，烟雾弹里的人永远能先看到烟外的人"
+		"SFUI_Hint_Grenades_On_Death"	"诱饵弹爆炸有伤害"
+		"SFUI_Hint_Shoot_Thru_Walls"	"养成按E键下包的习惯，速度比鼠标左键下包快"
+		"SFUI_Hint_LearnRadar"			"下包瞬间喷漆可以记录炸弹爆炸时间"
+		"SFUI_Hint_WeaponSlowdown"		"下包时间是三秒多一点点，残局下包最晚要在还有四秒的时候下"
+		"SFUI_Hint_ControlBotDontKeep"	"近大远小，以及 CSGO 子弹是从右眼射出的"
+		"SFUI_Hint_Fire_Makes_Slow"		"电击枪伤害跟距离挂钩。"
+
+
+
+
+
+
+		"SFUI_Hint_NotNeedHelmet"		"左右移动时下蹲开枪，加入急停会更准"
+		"SFUI_Hint_StandGround"			"路人局大家萍水相逢，注意礼貌：经济充裕发发枪 死后报完点安安静静看队友打 不要乱指挥 不要虚空报点指挥残局"
+		"SFUI_Hint_ConsiderDistance"	"没有烟雾弹过点的情况下手雷是一个很好的掩护道具"
+		"SFUI_Hint_Outgunned"			"128tick服务器比64tick服务器跌落伤害更高"
+		"SFUI_Hint_WeaponsAboveHead"	"跳投相关的投掷物128tick和64tick很多不通用"
+		"SFUI_Hint_ScoreboardRadar"		"手枪局赢了起吹风机+道具的胜算要大于大甲裸AK"
+		"SFUI_Hint_TossGrenade"			"十秒警告的音量开的尽量小，不然会影响听脚步打残局，一般5-10就行了"
+
+
+
+		"SFUI_Hint_DropWepFriend"		"同伴有的时候买不起一把好武器。靠谱的队友总是会按下 <font color='#FFFFFF'>[%drop%]</font> 键来把自己的武器扔给他们。"
+		"SFUI_Hint_LoseStreakMoney"		"阳光总在风雨后！如果遭遇多回合连败，队伍会在下一局的时候得到额外的金钱奖励。"
+		"SFUI_Hint_CrosshairNoFeet"		"哪怕在四处跑动的过程中，也记得要注意准星位置！冲着敌人的脚可是无法爆头的。"
+		"SFUI_Hint_OpponentGoodDay"		"嘿，有时候你的对手手气正旺，挡都挡不住。"
+		"SFUI_Hint_MollysShortFuse"		"燃烧弹和燃烧瓶的引信很短。如果扔得太远，它们会在半空中燃爆。"
+		"SFUI_Hint_GrenadesKeyVistory"	"投掷物可以成为制胜法宝，前提是要记得用！"
+		"SFUI_Hint_EarsBestWeapon"		"仔细聆听，收集对手的情报；敌人的脚步声或弹药装填声可能会透露最佳进攻时机。"
+		"SFUI_Hint_AWP_Hint1"           "AWP 狙击步枪具有非常大的杀伤力，通常能够一击致命。利用它强大的瞄准镜优势，远距离解决敌人。"
+		"SFUI_Hint_XM1014_Hint1"		"XM1014 霰弹枪具有非常大的杀伤力，并且在近距离时非常有用。然而在远距离射击时，想要击中敌人就得靠您的运气了。"
+		"SFUI_Hint_M4A4_Hint1"          "M4A4 卡宾枪是一把杀伤力与精准度兼具的全自动步枪，在中距离作战中效果超群，但同样也适用于远距离和近身距离作战。"
+		"SFUI_Hint_AK47_Hint1"          "AK-47 正如其响亮的声音一样具有杀伤力。尽管具有较大的后坐力，其致命的爆头仍旧为它赢得了神射手们的青睐。"
+		"SFUI_Hint_Deagle_Hint1"        "沙漠之鹰 .50C 堪称是真正的“手上加农炮”。它的子弹杀伤力巨大，能够有效的压制敌人，但它的弹匣中只有少许子弹。"
+
+
+
+
+		"SFUI_Hint_Inspect_Weapon"		"按住 <font color='#FFFFFF'>[%+lookatweapon%]</font> 键以目检视您的武器。"
+		// LOOKING TO PLAY
+		
+		"advertising_for_hire_competitive"					"<img src='file://{images}/icons/ui/competitive.svg' class=''/>竞技模式"
+		"advertising_for_hire_scrimcomp2v2"					"<img src='file://{images}/icons/ui/scrimcomp2v2.svg' class=''/>搭档模式"
+		"advertising_for_hire_survival"						"<img src='file://{images}/icons/ui/survival.svg' class=''/>头号特训"
+		
+
+// ---------------------------------------------------------------------------------------------
+}
+
+// - White
+// - Red
+// - Team color (may cause player's color dot before symbol)
+// - Green
+// - Light green
+// - Green(money awards)
+// - Light red
+// - CT color
+//	 - T color
+// - Light blue
+// - Blue
+// - Violet
+// - Light red 2
+
+}
