@@ -1,7 +1,0 @@
-1. Move "csgo_colormod" to this folder: Steam\SteamApps\Common\Counter-Strike Global Offensive\csgo\resource
-2. Add -language colormod in CS:GO launch options
-3. Restart CS:GO & enjoy
-
-Not working?
-1. Make sure that csgo_colormod is placed in the right folder (it needs to be inside the "resource" folder)
-2. Check your launch options for spelling mistakes, this example will work: -novid -language colormod -tickrate 128
